@@ -1,0 +1,23 @@
+/* DetallesHotel.css */
+.detalles-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .imagen-container img {
+    max-width: 100%;
+    max-height: 400px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .informacion-container {
+    flex: 1;
+    max-width: 600px;
+  }
+  
+  /* Agrega más estilos según sea necesario */
+  

@@ -1,0 +1,841 @@
+{
+    "hoteles": [
+      {
+        "imagen": "https://www.kayak.es/rimg/himg/34/7d/2d/revato-521749-10773355-785387.jpg?width=2160&height=1215&crop=true&outputtype=webp",
+        "nombre": "Hotel Plaza",
+        "ubicacion": {
+          "ciudad": "Nueva York",
+          "pais": "Estados Unidos"
+        },
+        "categoria": "4 estrellas",
+        "servicios": ["Wi-Fi gratuito", "Gimnasio", "Restaurante"],
+        "habitaciones": [
+          {
+            "tipo": "Doble Estándar",
+            "precio": 200
+          },
+          {
+            "tipo": "Suite Ejecutiva",
+            "precio": 350
+          }
+        ]
+      },
+      {
+        "imagen":"https://content.r9cdn.net/rimg/himg/43/cf/63/leonardo-7142-104609724-617599.jpg",
+        "nombre": "Grand Hotel Paris",
+        "ubicacion": {
+          "ciudad": "París",
+          "pais": "Francia"
+        },
+        "categoria": "5 estrellas",
+        "servicios": ["Conserjería 24/7", "Spa", "Piscina cubierta"],
+        "habitaciones": [
+          {
+            "tipo": "Habitación Deluxe",
+            "precio": 300
+          },
+          {
+            "tipo": "Suite Presidencial",
+            "precio": 800
+          }
+        ]
+      },
+      {
+        "imagen":"https://cf.bstatic.com/xdata/images/hotel/max1024x768/442193828.jpg?k=4923184fadd61f73ca45679e35fbe25bf56168b1ed4ebf28540c5d484472faa7&o=&hp=1",
+        "nombre": "Beachfront Resort",
+        "ubicacion": {
+          "ciudad": "Cancún",
+          "pais": "México"
+        },
+        "categoria": "Todo incluido",
+        "servicios": ["Acceso directo a la playa", "Entretenimiento nocturno", "Piscina infinita"],
+        "habitaciones": [
+          {
+            "tipo": "Habitación con vista al mar",
+            "precio": 250
+          },
+          {
+            "tipo": "Villa Privada",
+            "precio": 600
+          }
+        ]
+      },{
+        "imagen":"https://content.r9cdn.net/rimg/himg/e7/a1/a0/expediav2-2417939-ff5708-322421.jpg",
+        "nombre": "Tokyo Luxury Palace",
+        "ubicacion": {
+          "ciudad": "Tokio",
+          "pais": "Japón"
+        },
+        "categoria": "5 estrellas",
+        "servicios": ["Vistas panorámicas", "Restaurante de sushi", "Spa"],
+        "habitaciones": [
+          {
+            "tipo": "Habitación Superior",
+            "precio": 300
+          },
+          {
+            "tipo": "Suite Imperial",
+            "precio": 1000
+          }
+        ]
+      },
+      {
+        "imagen":"https://cf.bstatic.com/xdata/images/hotel/max1024x768/449886876.jpg?k=fb882fbee7694df9a3b6a232d031dee33462a4ea996ac57c7db5741fca05d868&o=&hp=1",
+        "nombre": "Berlin Boutique Hotel",
+        "ubicacion": {
+          "ciudad": "Berlín",
+          "pais": "Alemania"
+        },
+        "categoria": "4 estrellas",
+        "servicios": ["Diseño moderno", "Bar en la azotea", "Servicio de alquiler de bicicletas"],
+        "habitaciones": [
+          {
+            "tipo": "Habitación Estándar",
+            "precio": 150
+          },
+          {
+            "tipo": "Suite Ejecutiva",
+            "precio": 280
+          }
+        ]
+      },
+      {
+        "imagen":"https://www.hotelssydney.org/data/Pictures/OriginalPhoto/13142/1314230/1314230266/sydney-intercontinental-hotel-picture-1.JPEG",
+        "nombre": "Sydney Harbour View Hotel",
+        "ubicacion": {
+          "ciudad": "Sídney",
+          "pais": "Australia"
+        },
+        "categoria": "5 estrellas",
+        "servicios": ["Vistas al puerto", "Piscina en la azotea", "Gastronomía local"],
+        "habitaciones": [
+          {
+            "tipo": "Habitación Deluxe",
+            "precio": 400
+          },
+          {
+            "tipo": "Suite Premier",
+            "precio": 700
+          }
+        ]
+      },
+      {
+        "imagen":"https://img.nh-hotels.net/rNrzE/bqVqz/original/NH_Collection_Fori_Imperiali_Hotel_facilities_terrace_sunset_cocktail_setup.jpg",
+        "nombre": "Roma Historic Retreat",
+        "ubicacion": {
+          "ciudad": "Roma",
+          "pais": "Italia"
+        },
+        "categoria": "4 estrellas",
+        "servicios": ["Arquitectura histórica", "Terraza panorámica", "Restaurante italiano"],
+        "habitaciones": [
+          {
+            "tipo": "Habitación Clásica",
+            "precio": 180
+          },
+          {
+            "tipo": "Suite Romana",
+            "precio": 320
+          }
+        ]
+      },
+      {
+        "imagen":"https://cf.bstatic.com/xdata/images/hotel/max1024x768/319064923.jpg?k=013b1855b63bf575274680f025f17c8161e6891d482e0a330e1b165392c2824e&o=&hp=1",
+        "nombre": "Cape Town Seaside Resort",
+        "ubicacion": {
+          "ciudad": "Ciudad del Cabo",
+          "pais": "Sudáfrica"
+        },
+        "categoria": "5 estrellas",
+        "servicios": ["Playa privada", "Safaris organizados", "Piscina infinity"],
+        "habitaciones": [
+          {
+            "tipo": "Habitación con vista al océano",
+            "precio": 250
+          },
+          {
+            "tipo": "Suite Africana",
+            "precio": 500
+          }
+        ]
+      },
+      {
+        "imagen":"https://dynamic-media-cdn.tripadvisor.com/media/photo-o/23/b2/2e/64/atlantis-the-palm.jpg?w=1200&h=-1&s=1",
+        "nombre": "Dubai Skyline Luxury Hotel",
+        "ubicacion": {
+          "ciudad": "Dubái",
+          "pais": "Emiratos Árabes Unidos"
+        },
+        "categoria": "5 estrellas",
+        "servicios": ["Vistas al horizonte", "Pista de tenis en la azotea", "Spa de lujo"],
+        "habitaciones": [
+          {
+            "tipo": "Habitación de lujo",
+            "precio": 400
+          },
+          {
+            "tipo": "Suite Presidencial",
+            "precio": 1000
+          }
+        ]
+      },
+      {
+        "imagen":"https://www.marypop.com/blog/wp-content/uploads/2023/03/Visuel-hotel-barcelone.jpg",
+        "nombre": "Hotel Majestic",
+        "ubicacion": {
+          "ciudad": "Barcelona",
+          "pais": "España"
+        },
+        "categoria": "5 estrellas",
+        "servicios": ["Piscina en la azotea", "Restaurante gourmet", "Servicio de conserjería"],
+        "habitaciones": [
+          {
+            "tipo": "Habitación Deluxe",
+            "precio": 300
+          },
+          {
+            "tipo": "Suite de Lujo",
+            "precio": 600
+          }
+        ]
+      },
+      {
+        "imagen":"https://cf.bstatic.com/xdata/images/hotel/max1024x768/474656633.jpg?k=a64181edbfb4c1086d8587364a97b762af2c951bb338f5991c7a108cfc7e89b0&o=&hp=1",
+        "nombre": "Marrakech Oasis Resort",
+        "ubicacion": {
+          "ciudad": "Marrakech",
+          "pais": "Marruecos"
+        },
+        "categoria": "4 estrellas",
+        "servicios": ["Patio interior", "Hammam tradicional", "Jardines exóticos"],
+        "habitaciones": [
+          {
+            "tipo": "Habitación Marrakech",
+            "precio": 180
+          },
+          {
+            "tipo": "Suite Oasis",
+            "precio": 350
+          }
+        ]
+      },
+      {
+        "imagen":"https://fotografias.lasexta.com/clipping/cmsimages01/2022/09/06/AE4555E2-693E-434D-A2CE-632EAAE98BB8/hotel-marina-bay-sands-singapur_98.jpg?crop=2000,1125,x0,y138&width=1900&height=1069&optimize=high&format=webply",
+        "nombre": "Singapore Urban Retreat",
+        "ubicacion": {
+          "ciudad": "Singapur",
+          "pais": "Singapur"
+        },
+        "categoria": "5 estrellas",
+        "servicios": ["Piscina de borde infinito", "Restaurante con estrella Michelin", "Club nocturno exclusivo"],
+        "habitaciones": [
+          {
+            "tipo": "Habitación Premium",
+            "precio": 400
+          },
+          {
+            "tipo": "Suite Ejecutiva",
+            "precio": 800
+          }
+        ]
+      },
+      {
+        "imagen":"https://dynl.mktgcdn.com/p/Of0WebqqZAVIzTSSXF38GWMtMaR2JypX7okkx1b0lo0/600x450.jpg",
+        "nombre": "Venice Grand Canal Hotel",
+        "ubicacion": {
+          "ciudad": "Venecia",
+          "pais": "Italia"
+        },
+        "categoria": "4 estrellas",
+        "servicios": ["Vistas al Gran Canal", "Góndolas privadas", "Desayuno buffet"],
+        "habitaciones": [
+          {
+            "tipo": "Habitación Superior",
+            "precio": 220
+          },
+          {
+            "tipo": "Suite Veneciana",
+            "precio": 400
+          }
+        ]
+      },
+      {
+        "imagen":"https://cf.bstatic.com/xdata/images/hotel/max1024x768/308635483.jpg?k=19833182f04dea7631a8a8cc6461469bae9167adc9446c902fe78f83be7a647c&o=&hp=1",
+        "nombre": "Rio de Janeiro Beach Resort",
+        "ubicacion": {
+          "ciudad": "Río de Janeiro",
+          "pais": "Brasil"
+        },
+        "categoria": "5 estrellas",
+        "servicios": ["Acceso directo a la playa", "Cocktail bar junto a la piscina", "Club de playa privado"],
+        "habitaciones": [
+          {
+            "tipo": "Habitación con vista al mar",
+            "precio": 300
+          },
+          {
+            "tipo": "Suite Tropical",
+            "precio": 600
+          }
+        ]
+      },
+      {
+        "imagen":"https://content.r9cdn.net/rimg/dimg/02/18/8904e548-city-19865-163cbc3a79e.jpg?crop=true&width=1366&height=768&xhint=1779&yhint=1269",
+        "nombre": "Prague Castle View Hotel",
+        "ubicacion": {
+          "ciudad": "Praga",
+          "pais": "República Checa"
+        },
+        "categoria": "4 estrellas",
+        "servicios": ["Vistas al Castillo de Praga", "Sauna y spa", "Restaurante Checo"],
+        "habitaciones": [
+          {
+            "tipo": "Habitación Estándar",
+            "precio": 180
+          },
+          {
+            "tipo": "Suite Real",
+            "precio": 350
+          }
+        ]
+      },
+      {
+        "imagen":"https://cf.bstatic.com/xdata/images/hotel/max1024x768/459423896.jpg?k=1359393c84559e4aa500696c329391ab9a95e034fe028073e39f7b0f5317b15e&o=&hp=1",
+        "nombre": "Santorini Cliffside Retreat",
+        "ubicacion": {
+          "ciudad": "Santorini",
+          "pais": "Grecia"
+        },
+        "categoria": "5 estrellas",
+        "servicios": ["Vistas al mar Egeo", "Piscina infinita", "Restaurante gourmet"],
+        "habitaciones": [
+          {
+            "tipo": "Suite con terraza privada",
+            "precio": 450
+          },
+          {
+            "tipo": "Villa de lujo",
+            "precio": 800
+          }
+        ]
+      },
+      {
+        "imagen":"https://cf.bstatic.com/xdata/images/hotel/max1024x768/293848697.jpg?k=cb1266dc277c0cb3f7925e129fde325d20fbc6cc650e8a2368d54684bebc4e92&o=&hp=1",
+        "nombre": "Kyoto Traditional Inn",
+        "ubicacion": {
+          "ciudad": "Kioto",
+          "pais": "Japón"
+        },
+        "categoria": "Ryokan",
+        "servicios": ["Baños termales", "Cena kaiseki", "Jardín japonés"],
+        "habitaciones": [
+          {
+            "tipo": "Habitación Tatami",
+            "precio": 250
+          },
+          {
+            "tipo": "Suite Ryokan",
+            "precio": 500
+          }
+        ]
+      },
+      {
+        "imagen":"https://digital.ihg.com/is/image/ihg/independent--sphc--vienna-7550939683-4x3",
+        "nombre": "Vienna Classical Elegance Hotel",
+        "ubicacion": {
+          "ciudad": "Viena",
+          "pais": "Austria"
+        },
+        "categoria": "4 estrellas",
+        "servicios": ["Estilo clásico vienés", "Conciertos en vivo", "Salones de baile"],
+        "habitaciones": [
+          {
+            "tipo": "Habitación Deluxe",
+            "precio": 280
+          },
+          {
+            "tipo": "Suite Imperial",
+            "precio": 600
+          }
+        ]
+      },  {
+        "imagen":"https://static-new.lhw.com/HotelImages/Final/LW0903/lw0903_64141089_720x450.jpg",
+        "nombre": "Amsterdam Canal House Hotel",
+        "ubicacion": {
+          "ciudad": "Ámsterdam",
+          "pais": "Países Bajos"
+        },
+        "categoria": "4 estrellas",
+        "servicios": ["Vistas a los canales", "Bicicletas gratuitas", "Bar de vinos"],
+        "habitaciones": [
+          {
+            "tipo": "Habitación Canal View",
+            "precio": 220
+          },
+          {
+            "tipo": "Suite Boutique",
+            "precio": 400
+          }
+        ]
+      },
+      {
+        "imagen":"https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/d7/ca/34/rooftop-pool.jpg?w=1200&h=-1&s=1",
+        "nombre": "Bangkok Riverside Oasis",
+        "ubicacion": {
+          "ciudad": "Bangkok",
+          "pais": "Tailandia"
+        },
+        "categoria": "5 estrellas",
+        "servicios": ["Río Chao Phraya", "Spa tailandés", "Restaurante flotante"],
+        "habitaciones": [
+          {
+            "tipo": "Habitación Deluxe River View",
+            "precio": 300
+          },
+          {
+            "tipo": "Suite Presidencial",
+            "precio": 800
+          }
+        ]
+      },
+      {
+        "imagen":"https://viajeadinamarca.com/images/imag_346_hoteles_en_copenhague_Absalon.jpg",
+        "nombre": "Copenhagen Nordic Retreat",
+        "ubicacion": {
+          "ciudad": "Copenhague",
+          "pais": "Dinamarca"
+        },
+        "categoria": "4 estrellas",
+        "servicios": ["Diseño escandinavo", "Sauna en la azotea", "Restaurante nórdico"],
+        "habitaciones": [
+          {
+            "tipo": "Habitación Hygge",
+            "precio": 250
+          },
+          {
+            "tipo": "Suite Vikinga",
+            "precio": 500
+          }
+        ]
+      },
+      {
+        "imagen":"https://media-cdn.tripadvisor.com/media/photo-s/2a/b2/2e/3e/exterior.jpg",
+        "nombre": "Hawaiian Paradise Resort",
+        "ubicacion": {
+          "ciudad": "Honolulu",
+          "pais": "Estados Unidos"
+        },
+        "categoria": "5 estrellas",
+        "servicios": ["Playa privada", "Piscina de aguas cristalinas", "Luau tradicional"],
+        "habitaciones": [
+          {
+            "tipo": "Suite Oceanfront",
+            "precio": 500
+          },
+          {
+            "tipo": "Bungalow de lujo",
+            "precio": 800
+          }
+        ]
+      },
+      {
+        "imagen":"https://www.kayak.es/rimg/himg/0a/52/9d/expediav2-334344-969476648-277848.jpg?width=1366&height=768&crop=true",
+        "nombre": "Istanbul Bosphorus View Hotel",
+        "ubicacion": {
+          "ciudad": "Estambul",
+          "pais": "Turquía"
+        },
+        "categoria": "4 estrellas",
+        "servicios": ["Vistas al Bósforo", "Baño turco", "Restaurante otomano"],
+        "habitaciones": [
+          {
+            "tipo": "Habitación Panorámica",
+            "precio": 280
+          },
+          {
+            "tipo": "Suite Sultán",
+            "precio": 600
+          }
+        ]
+      },
+      {
+        "imagen":"https://images.ecestaticos.com/0xSO1JJHjoR0fTq7Wd4B0ADLm8w=/119x0:1939x1365/1200x900/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2Fdf7%2F995%2F861%2Fdf79958618e43fc96dc3ce80f150bdc6.jpg",
+        "nombre": "Stockholm Nordic Design Hotel",
+        "ubicacion": {
+          "ciudad": "Estocolmo",
+          "pais": "Suecia"
+        },
+        "categoria": "4 estrellas",
+        "servicios": ["Diseño escandinavo moderno", "Sauna en cada habitación", "Restaurante con chef estrella"],
+        "habitaciones": [
+          {
+            "tipo": "Habitación Deluxe",
+            "precio": 300
+          },
+          {
+            "tipo": "Suite Escandinava",
+            "precio": 550
+          }
+        ]
+      },
+      {
+        "imagen":"https://media.glamourmagazine.co.uk/photos/631880c944527f0650926b97/4:3/w_2080,h_1560,c_limit/MUNICH%20HOTELS%20070922%20MAIN.jpg",
+        "nombre": "Munich Alpine Retreat",
+        "ubicacion": {
+          "ciudad": "Múnich",
+          "pais": "Alemania"
+        },
+        "categoria": "4 estrellas",
+        "servicios": ["Vistas a los Alpes", "Cervecería bávara", "Spa alpino"],
+        "habitaciones": [
+          {
+            "tipo": "Habitación con balcón",
+            "precio": 220
+          },
+          {
+            "tipo": "Suite de Montaña",
+            "precio": 400
+          }
+        ]
+      },
+      {
+        "imagen":"https://media.cntraveler.com/photos/64371336ee59a5904f9b8ecb/4:3/w_1548,h_1161,c_limit/Wequassett%20Resort%20&%20Golf%20Club_View_7Roads.jpg",
+        "nombre": "Cape Cod Coastal Resort",
+        "ubicacion": {
+          "ciudad": "Cabo Cod",
+          "pais": "Estados Unidos"
+        },
+        "categoria": "4 estrellas",
+        "servicios": ["Playa privada", "Clases de surf", "Paseos en velero"],
+        "habitaciones": [
+          {
+            "tipo": "Habitación con vista al océano",
+            "precio": 250
+          },
+          {
+            "tipo": "Suite Costera",
+            "precio": 500
+          }
+        ]
+      },
+      {
+        "imagen":"https://theluxurytravelexpert.com/wp-content/uploads/2018/10/HEADER-4.jpg",
+        "nombre": "Bali Tropical Getaway",
+        "ubicacion": {
+          "ciudad": "Ubud",
+          "pais": "Indonesia"
+        },
+        "categoria": "5 estrellas",
+        "servicios": ["Jardines tropicales", "Piscina infinity", "Cenas al aire libre"],
+        "habitaciones": [
+          {
+            "tipo": "Villa con piscina privada",
+            "precio": 600
+          },
+          {
+            "tipo": "Suite Bali Bliss",
+            "precio": 1000
+          }
+        ]
+      },
+      {
+        "imagen":"https://www.riu.com/en/binaris/exterior-dublin-23_tcm55-276140.jpg?v=tm150623_1145",
+        "nombre": "Dublin Castle View Hotel",
+        "ubicacion": {
+          "ciudad": "Dublín",
+          "pais": "Irlanda"
+        },
+        "categoria": "4 estrellas",
+        "servicios": ["Vistas al Castillo de Dublín", "Pub irlandés", "Música en vivo"],
+        "habitaciones": [
+          {
+            "tipo": "Habitación Deluxe",
+            "precio": 250
+          },
+          {
+            "tipo": "Suite Irlandesa",
+            "precio": 450
+          }
+        ]
+      },
+      {
+        "imagen":"https://dynamic-media-cdn.tripadvisor.com/media/photo-o/23/88/2e/42/excellence-riviera-cancun.jpg?w=1200&h=-1&s=1",
+        "nombre": "Mexico City Cultural Retreat",
+        "ubicacion": {
+          "ciudad": "Ciudad de México",
+          "pais": "México"
+        },
+        "categoria": "5 estrellas",
+        "servicios": ["Cercano a museos", "Cursos de cocina mexicana", "Jardín botánico"],
+        "habitaciones": [
+          {
+            "tipo": "Suite Cultural",
+            "precio": 350
+          },
+          {
+            "tipo": "Penthouse con terraza",
+            "precio": 700
+          }
+        ]
+      },
+      {
+        "imagen":"https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/f7/93/9f/front-of-the-hotel.jpg?w=1200&h=-1&s=1",
+        "nombre": "Edinburgh Highland Resort",
+        "ubicacion": {
+          "ciudad": "Edimburgo",
+          "pais": "Escocia"
+        },
+        "categoria": "4 estrellas",
+        "servicios": ["Vistas a las Tierras Altas", "Campo de golf", "Whisky bar"],
+        "habitaciones": [
+          {
+            "tipo": "Habitación Escocesa",
+            "precio": 280
+          },
+          {
+            "tipo": "Suite Highland",
+            "precio": 550
+          }
+        ]
+      },
+      {
+        "imagen":"https://dynamic-media-cdn.tripadvisor.com/media/photo-o/22/22/e1/31/rooftop-pool-overlooking.jpg?w=1200&h=-1&s=1",
+        "nombre": "New Orleans Jazz Quarter Hotel",
+        "ubicacion": {
+          "ciudad": "Nueva Orleans",
+          "pais": "Estados Unidos"
+        },
+        "categoria": "4 estrellas",
+        "servicios": ["Cerca del Barrio Francés", "Conciertos de jazz en el hotel", "Cocina cajún"],
+        "habitaciones": [
+          {
+            "tipo": "Habitación con estilo NOLA",
+            "precio": 300
+          },
+          {
+            "tipo": "Suite Jazz",
+            "precio": 500
+          }
+        ]
+      },
+      {
+        "imagen":"data:image/jpeg;base64,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",
+        "nombre": "Seoul Urban Oasis",
+        "ubicacion": {
+          "ciudad": "Seúl",
+          "pais": "Corea del Sur"
+        },
+        "categoria": "5 estrellas",
+        "servicios": ["Jardín zen", "Spa tradicional coreano", "Restaurante con estrella Michelin"],
+        "habitaciones": [
+          {
+            "tipo": "Habitación Premium",
+            "precio": 400
+          },
+          {
+            "tipo": "Suite Seoul Serenity",
+            "precio": 800
+          }
+        ]
+      },
+      {
+        "imagen":"https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/22/57/2f/beachfront-pool.jpg?w=1200&h=-1&s=1",
+        "nombre": "Ambergris Caye Beachfront Resort",
+        "ubicacion": {
+          "ciudad": "San Pedro",
+          "pais": "Belice"
+        },
+        "categoria": "5 estrellas",
+        "servicios": ["Playa privada", "Buceo en arrecifes de coral", "Cenas frente al mar"],
+        "habitaciones": [
+          {
+            "tipo": "Suite Oceanfront",
+            "precio": 500
+          },
+          {
+            "tipo": "Villa de lujo",
+            "precio": 800
+          }
+        ]
+      },
+      {
+        "imagen":"https://content.r9cdn.net/rimg/himg/3a/8c/00/ice-194307168-66886065_3XL-164911.jpg",
+        "nombre": "Helsinki Northern Lights Hotel",
+        "ubicacion": {
+          "ciudad": "Helsinki",
+          "pais": "Finlandia"
+        },
+        "categoria": "4 estrellas",
+        "servicios": ["Observación de auroras boreales", "Sauna de hielo", "Restaurante nórdico"],
+        "habitaciones": [
+          {
+            "tipo": "Habitación Ártica",
+            "precio": 300
+          },
+          {
+            "tipo": "Suite Aurora",
+            "precio": 600
+          }
+        ]
+      },
+      {
+        "imagen":"https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1d/92/f8/b6/fg-logrono-hotel.jpg?w=1200&h=-1&s=1",
+        "nombre": "Rioja Vineyard Retreat",
+        "ubicacion": {
+          "ciudad": "Logroño",
+          "pais": "España"
+        },
+        "categoria": "Boutique",
+        "servicios": ["Tour de bodegas", "Degustación de vinos", "Paisajes de viñedos"],
+        "habitaciones": [
+          {
+            "tipo": "Habitación con vista al viñedo",
+            "precio": 250
+          },
+          {
+            "tipo": "Suite Vinícola",
+            "precio": 450
+          }
+        ]
+      },
+      {
+        "nombre": "Montreal Art District Hotel",
+        "ubicacion": {
+          "ciudad": "Montreal",
+          "pais": "Canadá"
+        },
+        "categoria": "4 estrellas",
+        "servicios": ["Cerca de galerías de arte", "Tour de murales urbanos", "Café cultural"],
+        "habitaciones": [
+          {
+            "tipo": "Habitación Artística",
+            "precio": 280
+          },
+          {
+            "tipo": "Suite Creativa",
+            "precio": 500
+          }
+        ]
+      },
+      {
+        "imagen":"https://dynl.mktgcdn.com/p/dBymx5JAiP22L5eswYYQwwBiC-syi1HdpijCYKlNIsI/1024x768.jpg",
+        "nombre": "Cairns Great Barrier Reef Resort",
+        "ubicacion": {
+          "ciudad": "Cairns",
+          "pais": "Australia"
+        },
+        "categoria": "5 estrellas",
+        "servicios": ["Snorkeling en la Gran Barrera de Coral", "Piscina con vista al océano", "Restaurante submarino"],
+        "habitaciones": [
+          {
+            "tipo": "Habitación Reef View",
+            "precio": 400
+          },
+          {
+            "tipo": "Suite Coral",
+            "precio": 700
+          }
+        ]
+      },
+      {
+        "imagen":"https://cf.bstatic.com/xdata/images/hotel/max1024x768/327303990.jpg?k=4eb71daf60adcee537586913ee593f7466233536904d85b25254a5719bfe3afc&o=&hp=1",
+        "nombre": "Reykjavik Nordic Adventure Hotel",
+        "ubicacion": {
+          "ciudad": "Reikiavik",
+          "pais": "Islandia"
+        },
+        "categoria": "4 estrellas",
+        "servicios": ["Excursiones a glaciares", "Aguas termales privadas", "Cocina islandesa"],
+        "habitaciones": [
+          {
+            "tipo": "Habitación Escandinava",
+            "precio": 320
+          },
+          {
+            "tipo": "Suite Aurora Boreal",
+            "precio": 600
+          }
+        ]
+      },
+      {
+        "imagen":"https://dynamic-media-cdn.tripadvisor.com/media/photo-o/27/03/ae/37/hotel-clover-asoke.jpg?w=1200&h=-1&s=1",
+        "nombre": "Bangkok Skyline View Hotel",
+        "ubicacion": {
+          "ciudad": "Bangkok",
+          "pais": "Tailandia"
+        },
+        "categoria": "5 estrellas",
+        "servicios": ["Vistas panorámicas de la ciudad", "Piscina infinita en la azotea", "Gastronomía tailandesa"],
+        "habitaciones": [
+          {
+            "tipo": "Habitación de lujo",
+            "precio": 400
+          },
+          {
+            "tipo": "Suite Presidencial",
+            "precio": 1000
+          }
+        ]
+      },
+      {
+        "imagen":"https://cf.bstatic.com/xdata/images/hotel/max1024x768/53352372.jpg?k=95a9e75b69eda039afd1ee490270cbcf87b9d15e6499fa63e1d88d6ce9749a48&o=&hp=1",
+        "nombre": "Cape Town Vineyard Estate",
+        "ubicacion": {
+          "ciudad": "Ciudad del Cabo",
+          "pais": "Sudáfrica"
+        },
+        "categoria": "Boutique",
+        "servicios": ["Tour de bodegas", "Degustación de vinos", "Vistas a la Montaña de la Mesa"],
+        "habitaciones": [
+          {
+            "tipo": "Habitación con terraza",
+            "precio": 350
+          },
+          {
+            "tipo": "Suite Vinícola",
+            "precio": 600
+          }
+        ]
+      },
+      {
+        "imagen":"https://hips.hearstapps.com/hmg-prod/images/hotel-freehand-los-angeles-1562310545.jpg",
+        "nombre": "Los Angeles Hollywood Glam Hotel",
+        "ubicacion": {
+          "ciudad": "Los Ángeles",
+          "pais": "Estados Unidos"
+        },
+        "categoria": "5 estrellas",
+        "servicios": ["Estilo Hollywoodiano", "Piscina con vistas a las colinas", "Spa de celebridades"],
+        "habitaciones": [
+          {
+            "tipo": "Habitación Deluxe",
+            "precio": 350
+          },
+          {
+            "tipo": "Suite Glamour",
+            "precio": 700
+          }
+        ]
+      },
+      {
+        "imagen":"https://dynamic-media-cdn.tripadvisor.com/media/photo-o/29/29/80/b2/exterior-aerial-view.jpg?w=1200&h=-1&s=1",
+        "nombre": "Phuket Tropical Paradise Resort",
+        "ubicacion": {
+          "ciudad": "Phuket",
+          "pais": "Tailandia"
+        },
+        "categoria": "5 estrellas",
+        "servicios": ["Playa privada", "Bungalows sobre el agua", "Cenas junto a la piscina"],
+        "habitaciones": [
+          {
+            "tipo": "Habitación con vista al mar",
+            "precio": 450
+          },
+          {
+            "tipo": "Villa de lujo frente al mar",
+            "precio": 800
+          }
+        ]
+      }
+    ]
+  }
