@@ -34,6 +34,7 @@ const cambioBuscar = () => {
       textAlign: 'center',
       maxWidth: '800px',
       margin: 'auto',
+
     },
     title: {
       fontSize: '24px',
@@ -61,10 +62,13 @@ const cambioBuscar = () => {
     button: {
       background: '#4CAF50',
       color: 'white',
-      padding: '10px',
+      padding: '15px 32px',
       fontSize: '16px',
       border: 'none',
       cursor: 'pointer',
+      textAlign: 'center',
+      borderRadius: '12px',
+      marginTop:  '10px'
     },
     destinosContainer: {
       marginTop: '30px',
@@ -119,7 +123,7 @@ return (
     <div style={styles.destinosContainer}>
       {destinos.map((destino, index) => (
         <div key={index} style={styles.destinoItem}>
-          ✈️{destino}
+          ✈️ {destino}
         </div>
       ))}
     </div>

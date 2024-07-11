@@ -37,7 +37,7 @@ return (
     
     {/* Contenedor de la información del hotel */}
     <div className="informacion-container">
-      <h2>{hotelSeleccionado.nombre}</h2>
+      <h2 style={{color:'#5e7d59'}}>{hotelSeleccionado.nombre}</h2>
       <p>Categoría: {hotelSeleccionado.categoria}</p>
       <p>Ubicación: {hotelSeleccionado.ubicacion.ciudad}, {hotelSeleccionado.ubicacion.pais}</p>
       <p>Servicios: {hotelSeleccionado.servicios.join(', ')}</p>

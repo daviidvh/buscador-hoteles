@@ -38,6 +38,7 @@ function Buscador() {
     color: '#333',
     transition: 'transform 0.3s ease-in-out',
     cursor: 'pointer',
+    marginLeft: '10px'
   };
 
   // Estilos para el contenedor de tarjetas
@@ -50,7 +51,7 @@ function Buscador() {
   return (
     <div>
       {/* Título de la lista de hoteles con el destino */}
-      <h2 style={{ color: '#5e7d59' }}>Lista de Hoteles en {destino}</h2>
+      <h2 style={{ color: '#5e7d59', marginLeft: '10px'}}>Lista de Hoteles en {destino}</h2>
       
       {/* Condición: No hay hoteles disponibles en el destino */}
       {hotelesFiltrados.length === 0 ? (
@@ -78,7 +79,7 @@ function Buscador() {
                 <p>Categoría: {hotel.categoria}</p>
                 <p>Ubicación: {hotel.ubicacion.ciudad}, {hotel.ubicacion.pais}</p>
                 {/* Enlace para ver detalles del hotel */}
-                <Link to={`/detalles/${encodeURIComponent(hotel.nombre)}`}>
+                <Link to={`/detalles/${encodeURIComponent(hotel.nombre)}`} style={{  backgroundColor: '#4CAF50', border: 'none',color: 'white',padding: '15px 32px',textAlign: 'center',textDecoration: 'none',display: 'inline-block',fontSize: '16px',margin: '4px 2px',cursor: 'pointer',borderRadius: '12px'}}>
                   Ver Detalles
                 </Link>
               </div>

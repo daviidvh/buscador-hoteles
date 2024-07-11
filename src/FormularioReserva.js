@@ -124,9 +124,7 @@ function FormularioReserva(props) {
           </option>
         ))}
       </select>
-
-
-
+      <br></br>
       <button type="submit" style={styles.button}>
         Reservar
       </button>
@@ -139,6 +137,10 @@ const styles = {
     maxWidth: '300px', 
     margin: 'auto',
     paddingRight : '50px',
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+    flexWrap: 'wrap'
 
   },
   label: {
@@ -154,11 +156,17 @@ const styles = {
   button: {
     background: '#4CAF50',
     color: 'white',
-    padding: '10px',
+    padding: '15px 32px',
     fontSize: '16px',
     border: 'none',
     cursor: 'pointer',
+    textAlign: 'center',
+    borderRadius: '12px',
+    marginTop:  '10px'
   },
+
+
+
 };
 
 export default FormularioReserva;
